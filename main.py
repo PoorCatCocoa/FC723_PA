@@ -17,11 +17,14 @@ class EuclideanAlgorithm:		#Trans the pseudocode to python code with OOP
 		self.b = b
 
 	def gcd(self):
-		while self.b != 0:
-			r = self.a % self.b
-			self.a = self.b
-			self.b = r
-		return print("The GCD is:", self.a)
+		if self.a & self.b != 0:		# Make sure all numbers are correct and can be executed
+			while self.b != 0:
+				r = self.a % self.b
+				self.a = self.b
+				self.b = r
+			return print("The GCD is:", self.a)
+		else:
+			print("GCD(0,0) is undefined, GCD(a,0) = a, GCD(0,b) = b, Please try again.")
 
 print("Welcome to the Euclidean Algorithm!\n"
 	  "You can enter two numbers to find the greatest common divisor(GCD) of them.\n")
