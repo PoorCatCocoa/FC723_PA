@@ -9,7 +9,6 @@ While b != 0{		Use the Euclidean Algorithm to find the GCD(a) when b = 0
 }
 return a;
 """
-from PyQt5.sip import voidptr
 
 
 class EuclideanAlgorithm:		#Trans the pseudocode to python code with OOP
