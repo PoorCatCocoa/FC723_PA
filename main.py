@@ -24,7 +24,7 @@ class EuclideanAlgorithm:		#Trans the pseudocode to python code with OOP
 				self.b = r
 			return print("The GCD is:", self.a)
 		else:
-			print("GCD(0,0) is undefined, GCD(a,0) = a, GCD(0,b) = b, Please try again.")
+			print("GCD(0,0) is undefined, GCD(a,0) = a, GCD(0,b) = b, Please try again with correct numbers.")
 
 print("Welcome to the Euclidean Algorithm!\n"
 	  "You can enter two numbers to find the greatest common divisor(GCD) of them.\n")
