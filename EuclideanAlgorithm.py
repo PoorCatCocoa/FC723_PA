@@ -6,7 +6,6 @@ While b != 0{		Use the Euclidean Algorithm to find the GCD(a) when b = 0
 	r = a % b;
 	a = b;
 	b = r;
-}
 return a;
 """
 
@@ -17,7 +16,7 @@ class EuclideanAlgorithm:		#Trans the pseudocode to python code with OOP
 		self.b = b
 
 	def gcd(self):
-		if self.a & self.b != 0:		# Make sure all numbers are correct and can be executed
+		if self.a and self.b != 0:		# Make sure all numbers are correct and can be executed
 			while self.b != 0:
 				r = self.a % self.b
 				self.a = self.b
