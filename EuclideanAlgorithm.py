@@ -6,7 +6,6 @@ While b != 0{		Use the Euclidean Algorithm to find the GCD(a) when b = 0
 	r = a % b;
 	a = b;
 	b = r;
-}
 return a;
 """
 
